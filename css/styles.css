@@ -1,0 +1,138 @@
+            body {
+                font-size: 16px;
+                color: black;
+                background-color: burlywood;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            /* START OF HEADER */
+            
+            .navbar {
+                background-color: rgb(112, 75, 48);
+                padding: 10px;
+                box-sizing: content-box;
+                border-radius: 0.5rem;
+            }
+            
+            .nav-item {
+                border: 5px;
+                padding: 5px;
+                width: auto;
+            }
+            
+            .nav-item:hover {
+                background: burlywood;
+            }
+            /* .navbar-toggler:hover {
+
+            } */
+            /* End of Header */
+            /* START OF ACADEMIC & MAP TILES */
+            
+            #Subject-and-classes,
+            #Academic-calender,
+            #map-tile {
+                text-align: center;
+                height: 250px;
+                width: 100%;
+                margin-bottom: 15px;
+                margin-top: 15px;
+                position: relative;
+                /* border: 3px solid black; */
+                overflow: hidden;
+                /* background-color: rgb(112, 75, 48); */
+                border-radius: 2rem;
+            }
+            
+            #Subject-and-classes {
+                background: url('../images/subjects&classes.jpg') no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            #Academic-calender {
+                background: url('../images/academic\ calender.jpg') no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            #map-tile {
+                background-position: center;
+                background-size: cover;
+            }
+            /* #Subject-and-classes:hover,
+            #Academic-calender:hover,
+            #map-tile:hover {
+                
+            } */
+            
+            #Subject-and-classes span,
+            #Academic-calender span,
+            #map-tile span {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                text-align: center;
+                font-size: 1.6em;
+                text-transform: uppercase;
+                background-color: black;
+                color: white;
+                opacity: .8;
+            }
+            /* END OF ACADEMIC & MAP TILES */
+            /* START OF FOOTER */
+            
+            .Panel-footer {
+                margin-top: 30px;
+                padding-top: 35px;
+                padding-bottom: 30px;
+                background-color: rgb(112, 75, 48);
+                border-top: 0;
+            }
+            
+            .Panel-footer div.row {
+                margin-bottom: 50px;
+            }
+            
+            #hours,
+            #address {
+                line-height: 2;
+            }
+            
+            #hours>span,
+            #address>span {
+                font-size: 1.3em;
+            }
+            
+            #address p {
+                color: burlywood;
+                font-size: .8em;
+                line-height: 1.8;
+            }
+            
+            #Testimonials {
+                font-style: italic;
+            }
+            
+            #Testimonials p:nth-child(2) {
+                margin-top: 25px;
+            }
+            /* END OF FOOTER */
+            /* MOBILE SCREEN */
+            
+            @media (max-width: 575px) {
+                .nav-item {
+                    border: 5px;
+                    padding: 5px;
+                    width: 100%;
+                    background: white;
+                    margin-top: 2px;
+                    text-align: center;
+                }
+                .Panel-footer {
+                    text-align: center;
+                }
+                .Panel-footer section hr {
+                    width: 100%;
+                }
+            }
