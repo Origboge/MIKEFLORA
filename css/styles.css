@@ -2,12 +2,12 @@
                 font-size: 16px;
                 color: black;
                 background-color: burlywood;
-                font-family: cursive;
+                font-family: Arial, Helvetica, sans-serif;
             }
             /* START OF HEADER */
             
             .navbar-brand {
-                font-family: cursive;
+                font-family: Arial, Helvetica, sans-serif;
             }
             
             .logo {
