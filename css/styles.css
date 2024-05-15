@@ -15,6 +15,11 @@
                     border-radius: 50%;
                 }
                 
+                .navbar-nav {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                
                 .navbar {
                     background-color: rgb(112, 75, 48, 0.9);
                     padding: 10px;
@@ -24,7 +29,7 @@
                 
                 .nav-item {
                     border: 5px;
-                    padding: 5px;
+                    padding: 15px;
                     width: auto;
                     font-family: sans-serif;
                 }
@@ -243,6 +248,7 @@
                     background-color: black;
                     color: white;
                     opacity: .8;
+                    font-family: serif;
                 }
                 /* END OF ACADEMIC & MAP TILES */
                 /* START OF FOOTER */
@@ -262,13 +268,13 @@
                 #hours,
                 #address {
                     line-height: 2;
-                    color: aqua;
+                    color: whitesmoke;
                 }
                 
                 #hours>span,
                 #address>span {
                     font-size: 1.3em;
-                    color: yellow;
+                    color: black;
                 }
                 
                 #address p {
@@ -296,9 +302,12 @@
                         border: 5px;
                         padding: 5px;
                         width: 100%;
-                        background: white;
-                        margin-top: 2px;
+                        background: rgb(247, 230, 230);
+                        margin-top: 5px;
                         text-align: center;
+                    }
+                    .nav-link {
+                        color: rgb(38, 88, 117);
                     }
                     .Panel-footer {
                         text-align: center;
