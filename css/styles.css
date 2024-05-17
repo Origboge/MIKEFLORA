@@ -70,8 +70,7 @@
                     font-family: serif;
                 }
                 /* End of Header */
-                /* start of gallery slide */
-                /* Slideshow container */
+                /* start of Slideshow container */
                 
                 .mySlides {
                     display: none;
@@ -148,6 +147,7 @@
                         font-size: 11px
                     }
                 }
+                /* END OF SLIDE SHOW */
                 /* START OF OUR GALLERY */
                 /* The grid: Four equal columns that floats next to each other */
                 
@@ -179,7 +179,7 @@
                 }
                 /* The expanding image container */
                 
-                .container {
+                .container2 {
                     position: relative;
                     display: none;
                 }
