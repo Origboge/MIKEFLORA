@@ -1,3 +1,4 @@
+// JS FOR SLIDE SHOW
 let slideIndex = 0;
 showSlides();
 
