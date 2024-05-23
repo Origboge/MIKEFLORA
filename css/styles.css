@@ -70,8 +70,8 @@
                     font-style: italic;
                 }
                 
-                .red {
-                    color: red;
+                .brown {
+                    color: rgb(112, 75, 48, 0.9);
                     font-family: serif;
                 }
                 /* End of Header */
