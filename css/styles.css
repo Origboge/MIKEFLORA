@@ -12,12 +12,13 @@
                 }
                 
                 .FLORA {
-                    color: rgb(247, 230, 230);
+                    color: rgb(112, 75, 48, 0.9);
                     font-weight: bold;
                 }
                 
                 .About-message {
                     text-align: justify;
+                    word-spacing: 2px;
                 }
                 
                 .navbar-brand {
@@ -36,7 +37,7 @@
                 }
                 
                 .navbar {
-                    background-color: rgb(112, 75, 48, 0.9);
+                    background-color: rgb(247, 230, 230);
                     padding: 10px;
                     box-sizing: content-box;
                     border-radius: 0.5rem;
@@ -49,8 +50,12 @@
                     font-family: sans-serif;
                 }
                 
+                .nav-link {
+                    color: rgb(5, 18, 26);
+                }
+                
                 .nav-item:hover {
-                    background: rgb(38, 88, 117);
+                    background: rgb(247, 230, 230);
                 }
                 
                 .welcome {
@@ -152,7 +157,7 @@
                 /* The grid: Four equal columns that floats next to each other */
                 
                 .gallerytext {
-                    color: rgb(151, 105, 74, 0.7);
+                    color: rgb(151, 105, 74);
                 }
                 
                 .column {
@@ -213,33 +218,32 @@
                     margin-left: 15px;
                     margin-right: 15px;
                 }
-                
-                .about {
+                /* .about {
                     text-align: center;
                     font-weight: bold;
-                }
+                } */
                 
                 #learning,
-                .about,
+                #about,
                 #growth,
                 #vision,
                 #focus,
                 #mission {
                     text-align: center;
-                    font-weight: bold;
-                    color: rgb(38, 88, 117);
+                    font-weight: bolder;
+                    color: rgb(112, 75, 48, 0.9);
                     font-family: serif;
                 }
                 
-                .story,
+                .about,
                 .learning,
                 .growth,
                 .vision,
                 .focus,
                 .mission {
                     text-align: justify;
-                    height: 250px;
-                    width: 100%;
+                    height: fit-content;
+                    width: fit-content;
                     margin-bottom: 15px;
                     margin-top: 15px;
                     position: relative;
@@ -247,12 +251,24 @@
                     padding-left: 15px;
                     padding-right: 15px;
                     padding-bottom: 15px;
-                    /* border: 3px solid black; */
+                    border: 1px solid rgb(112, 75, 48, 0.9);
                     overflow: hidden;
-                    background-color: rgb(151, 105, 74, 0.8);
-                    border-radius: 2rem;
+                    background-color: rgb(247, 230, 230);
+                    border-radius: 0.5rem;
                     overflow: auto;
                     font-family: sans-serif;
+                    word-spacing: 2px;
+                    /* background: url('../images/sports\ \(15\).jpg') no-repeat;
+                    background: transparent;
+                    background-size: cover; */
+                }
+                
+                .special {
+                    background-color: rgb(112, 75, 48, 0.9);
+                    border-radius: 0.5rem;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    font-weight: bold;
                 }
                 /* end of about us */
                 /* START OF ACADEMIC & MAP TILES */
@@ -393,12 +409,12 @@
                         border: 5px;
                         padding: 5px;
                         width: 100%;
-                        background: rgb(247, 230, 230);
+                        background: rgb(112, 75, 48, 0.9);
                         margin-top: 5px;
                         text-align: center;
                     }
                     .nav-link {
-                        color: rgb(38, 88, 117);
+                        color: black;
                     }
                     .Panel-footer {
                         text-align: center;

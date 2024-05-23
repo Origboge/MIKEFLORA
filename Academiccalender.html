@@ -7,6 +7,8 @@
     <title>MIKE FLORA</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
 </head>
 
@@ -14,10 +16,11 @@
     <header>
 
         <!-- As a link -->
-        <nav id="header-nav" class="navbar navbar-expand-md navbar-expand-sm ">
+        <nav class="navbar navbar-expand-md navbar-expand-sm ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="home.html">
-                    <img class="logo" src="/MIKEFLORA/images/logo.jpg" width="100" height="100"><span class="MIKE">MIKE</span> <span class="FLORA">FLORA</span> NUR & PRY </a>
+                    <img class="logo" src="/MIKEFLORA/images/logo.jpg" width="100" height="100"><span class="MIKE">MIKE</span> <span class="FLORA">FLORA</span> NUR & PRY
+                </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,17 +28,20 @@
                 <div class="collapse navbar-collapse " id="navbarNavDropdown">
                     <ul class="navbar-nav ">
                         <li class="nav-item ">
-                            <a class="nav-link  " href="home.html">Home</a>
+                            <a class="nav-link" href="home.html">
+                                <span class="bi bi-house"></span> Home
+                            </a>
+                            <!-- <a class="nav-link  " href="home.html">Home</a> -->
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link  " href="About Us.html">About Us</a>
+                            <a class="nav-link  " href="About Us.html"> <span class="bi bi-person-circle"></span> About Us</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="Admission.html">Admissions</a>
+                            <a class="nav-link" href="Admission.html"> <span class="bi bi-file-earmark-text"></span>Admissions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="phone" href="tel:+2348065007500"> Call Us</a>
+                            <a class="nav-link" id="phone" href="tel:+2348065007500"> <i class="bi bi-telephone-fill"></i> Call Us</a>
                         </li>
                     </ul>
                 </div>
@@ -50,7 +56,7 @@
     <div class="container-fluid">
         <section>
 
-            <img class="calendar" src="/MIKEFLORA/images/Academic Calendarr_001.jpg">
+            <img class="calendar" data-aos="fade-up" src="/MIKEFLORA/images/Academic Calendarr_001.jpg">
 
 
         </section>
@@ -99,6 +105,11 @@
     <script src="js/jquery-3.7.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
