@@ -1,8 +1,7 @@
                 body {
                     font-size: 16px;
                     color: black;
-                    background-color: rgb(247, 230, 230);
-                    font-family: sans-serif;
+                    background-color: whitesmoke font-family: sans-serif;
                 }
                 /* START OF HEADER */
                 
@@ -37,7 +36,7 @@
                 }
                 
                 .navbar {
-                    background-color: rgb(247, 230, 230);
+                    background-color: white;
                     padding: 10px;
                     box-sizing: content-box;
                     border-radius: 0.5rem;
@@ -55,7 +54,7 @@
                 }
                 
                 .nav-item:hover {
-                    background: rgb(247, 230, 230);
+                    background: rgb(198, 226, 220);
                 }
                 
                 .welcome {
@@ -157,6 +156,12 @@
                 /* The grid: Four equal columns that floats next to each other */
                 
                 .gallerytext {
+                    color: black;
+                    font-style: italic;
+                    font-weight: lighter;
+                }
+                
+                .fa-images {
                     color: rgb(151, 105, 74);
                 }
                 
@@ -210,6 +215,19 @@
                 /* END OF OUR GALLERY */
                 /* about us section */
                 
+                .fa-graduation-cap,
+                .fa-award,
+                .fa-heart,
+                .fa-magnifying-glass,
+                .fa-seedling,
+                .fa-eye,
+                .fa-medal {
+                    color: rgb(151, 105, 74);
+                    width: 100%;
+                    text-align: center;
+                    font-size: 50px;
+                }
+                
                 .container1 {
                     font-size: 1.2em;
                     padding: 10px;
@@ -231,7 +249,7 @@
                 #mission {
                     text-align: center;
                     font-weight: bolder;
-                    color: rgb(112, 75, 48, 0.9);
+                    color: black;
                     font-family: serif;
                 }
                 
@@ -241,7 +259,7 @@
                 .vision,
                 .focus,
                 .mission {
-                    text-align: justify;
+                    text-align: center;
                     height: fit-content;
                     width: fit-content;
                     margin-bottom: 15px;
@@ -251,10 +269,10 @@
                     padding-left: 15px;
                     padding-right: 15px;
                     padding-bottom: 15px;
-                    border: 1px solid rgb(112, 75, 48, 0.9);
+                    /* border: 1px solid rgb(112, 75, 48, 0.9); */
                     overflow: hidden;
-                    background-color: rgb(247, 230, 230);
-                    border-radius: 0.5rem;
+                    background-color: rgb(198, 226, 220);
+                    border-radius: 2rem;
                     overflow: auto;
                     font-family: sans-serif;
                     word-spacing: 2px;
@@ -264,8 +282,8 @@
                 }
                 
                 .special {
-                    background-color: rgb(112, 75, 48, 0.9);
-                    border-radius: 0.5rem;
+                    text-align: center;
+                    /* background-color: rgb(198, 226, 220); */
                     padding-left: 15px;
                     padding-right: 15px;
                     font-weight: bold;
