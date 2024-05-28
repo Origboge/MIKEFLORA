@@ -13,6 +13,11 @@
 </head>
 
 <body>
+    <!-- Loading overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+        <!-- PNG logo used as spinner -->
+        <img src="/MIKEFLORA/images/logo.jpg" alt="Loading..." class="spinner-logo">
+    </div>
     <header>
 
         <!-- As a link -->
@@ -102,6 +107,7 @@
 
 
     <!-- jquery plugin -->
+    <script src="https://kit.fontawesome.com/d408e8dabc.js" crossorigin="anonymous"></script>
     <script src="js/jquery-3.7.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
@@ -109,6 +115,16 @@
     <script>
         AOS.init();
     </script>
+    <script>
+        // JavaScript to hide the loading spinner when the content is fully loaded
+        window.addEventListener('load', function() {
+            // Hide the loading overlay
+            document.getElementById('loading-overlay').style.display = 'none';
+            // Show the main content
+            document.querySelector('.content').style.display = 'block';
+        });
+    </script>
+
 
 </body>
 
