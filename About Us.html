@@ -13,6 +13,11 @@
 </head>
 
 <body>
+    <!-- Loading overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+        <!-- PNG logo used as spinner -->
+        <img src="/MIKEFLORA/images/logo.jpg" alt="Loading..." class="spinner-logo">
+    </div>
     <header>
 
         <!-- As a link -->
@@ -97,11 +102,49 @@
                 loving family. Mrs. Oshodi, wanted to create a space where every child felt cherished and supported. Our teachers are like caring uncles and aunts, always there to guide you on your learning journey.
             </p>
         </div>
+        <!-- vision and mission collapse -->
+
+        <div class="container mt-5">
+            <!-- <h2>VISION AND MISSION</h2> -->
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <div><i class="fa-solid fa-eye"></i></div>OUR VISION
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            We envision a future where every child who walks through our doors becomes a confident, lifelong learner, prepared to contribute positively to their family, community, and the world. Mission: Our mission is to foster a nurturing and inclusive learning
+                            environment that celebrates the unique potential of each child. We achieve this by providing a strong academic foundation, promoting creativity and critical thinking skills, and building a strong partnership with families.
+                            Since 2007, we've watched countless students blossom into confident and curious individuals. We've been there for their first wobbly steps in education, all the way to their proud graduations. So, if you're looking for a school
+                            that feels like a warm embrace, a place where you'll be supported, challenged, and loved then welcome to our family! We can't wait to watch you grow and shine!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div><i class="fa-solid fa-medal"></i></div>OUR MISSION
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Our mission is to foster a nurturing and inclusive learning environment that celebrates the unique potential of each child. We achieve this by providing a strong academic foundation, promoting creativity and critical thinking skills, and building a strong
+                            partnership with families. Since 2007, we've watched countless students blossom into confident and curious individuals. We've been there for their first wobbly steps in education, all the way to their proud graduations. So,
+                            if you're looking for a school that feels like a warm embrace, a place where you'll be supported, challenged, and loved then welcome to our family! We can't wait to watch you grow and shine!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of vision and mission collapse -->
 
 
         <div class="special">
-            <div><i class="fa-solid fa-award"></i></div>
-            <p data-aos="fade-right">What makes our family so special? Here are a few things that set us apart;</p>
+            <!-- <div><i class="fa-solid fa-award"></i></div> -->
+            <p data-aos="fade-right">Here are a few things that set us apart;</p>
         </div>
         <div class="learning">
             <div><i class="fa-solid fa-heart"></i></div>
@@ -119,53 +162,55 @@
             <div id="growth"> GROWING TOGETHER</div>
             <p data-aos="fade-right"> We don't just focus on academics, but on a child's all-around development. We have exciting programs that nurture your talents, be it in music, art, sports, or anything that makes your heart sing! </p>
         </div>
-        <div class="vision">
-            <div><i class="fa-solid fa-eye"></i></div>
-            <div id="vision">VISION</div>
-            <p data-aos="fade-right"> We envision a future where every child who walks through our doors becomes a confident, lifelong learner, prepared to contribute positively to their family, community, and the world. Mission: Our mission is to foster a nurturing and inclusive
-                learning environment that celebrates the unique potential of each child. We achieve this by providing a strong academic foundation, promoting creativity and critical thinking skills, and building a strong partnership with families. Since
-                2007, we've watched countless students blossom into confident and curious individuals. We've been there for their first wobbly steps in education, all the way to their proud graduations. So, if you're looking for a school that feels like
-                a warm embrace, a place where you'll be supported, challenged, and loved then welcome to our family! We can't wait to watch you grow and shine!</p>
-        </div>
-        <div class="mission">
-            <div><i class="fa-solid fa-medal"></i></div>
-            <div id="mission">MISSION</div>
-            <p data-aos="fade-right"> Our mission is to foster a nurturing and inclusive learning environment that celebrates the unique potential of each child. We achieve this by providing a strong academic foundation, promoting creativity and critical thinking skills, and building
-                a strong partnership with families. Since 2007, we've watched countless students blossom into confident and curious individuals. We've been there for their first wobbly steps in education, all the way to their proud graduations. So, if
-                you're looking for a school that feels like a warm embrace, a place where you'll be supported, challenged, and loved then welcome to our family! We can't wait to watch you grow and shine!</p>
-        </div>
+
+
+        <!-- <div class="vision">
+                    <div><i class="fa-solid fa-eye"></i></div>
+                    <div id="vision">VISION</div>
+                    <p data-aos="fade-right"> We envision a future where every child who walks through our doors becomes a confident, lifelong learner, prepared to contribute positively to their family, community, and the world. Mission: Our mission is to foster a nurturing and
+                        inclusive learning environment that celebrates the unique potential of each child. We achieve this by providing a strong academic foundation, promoting creativity and critical thinking skills, and building a strong partnership
+                        with families. Since 2007, we've watched countless students blossom into confident and curious individuals. We've been there for their first wobbly steps in education, all the way to their proud graduations. So, if you're looking
+                        for a school that feels like a warm embrace, a place where you'll be supported, challenged, and loved then welcome to our family! We can't wait to watch you grow and shine!</p>
+                </div>
+                <div class="mission">
+                    <div><i class="fa-solid fa-medal"></i></div>
+                    <div id="mission">MISSION</div>
+                    <p data-aos="fade-right"> Our mission is to foster a nurturing and inclusive learning environment that celebrates the unique potential of each child. We achieve this by providing a strong academic foundation, promoting creativity and critical thinking skills,
+                        and building a strong partnership with families. Since 2007, we've watched countless students blossom into confident and curious individuals. We've been there for their first wobbly steps in education, all the way to their proud
+                        graduations. So, if you're looking for a school that feels like a warm embrace, a place where you'll be supported, challenged, and loved then welcome to our family! We can't wait to watch you grow and shine!</p>
+                </div> -->
 
 
         </section>
-    </div>
-    <!-- END OF MAIN CONTENT -->
-    <footer class="Panel-footer">
-        <div class="container">
-            <div class="row">
-                <section id="hours" class="col-sm-4">
-                    <span>School Hours:</span><br> Monday-Friday : 8am - 2pm<br> Weekends Closed
-                    <hr class="visible-xs">
 
-                </section>
-                <section id="address" class="col-sm-4">
-                    <span>Address:</span><br> 652F+6JR, Oke Aro Rd,<br> Akure 340283, Ondo State
-                    <p>School buses are available to our students</p>
-                    <hr class="visible-xs">
-                </section>
-                <section id="Testimonials" class="col-sm-4">
-                    <p> "It's a very good school and has quality education"</p>
-                    <p>"My sister is an alumni of this school, they impact the life of every child"</p>
-                    <p>"Mike Flora has produced students who are now leaders in various fields,i recommend!"</p>
+        <!-- END OF MAIN CONTENT -->
+        <footer class="Panel-footer">
+            <div class="container">
+                <div class="row">
+                    <section id="hours" class="col-sm-4">
+                        <span>School Hours:</span><br> Monday-Friday : 8am - 2pm<br> Weekends Closed
+                        <hr class="visible-xs">
 
-                </section>
+                    </section>
+                    <section id="address" class="col-sm-4">
+                        <span>Address:</span><br> 652F+6JR, Oke Aro Rd,<br> Akure 340283, Ondo State
+                        <p>School buses are available to our students</p>
+                        <hr class="visible-xs">
+                    </section>
+                    <section id="Testimonials" class="col-sm-4">
+                        <p> "It's a very good school and has quality education"</p>
+                        <p>"My sister is an alumni of this school, they impact the life of every child"</p>
+                        <p>"Mike Flora has produced students who are now leaders in various fields,i recommend!"</p>
+
+                    </section>
+                </div>
+
+                <div class="text-center">&copy; Copyright Mike Flora Nursery & Primary School 2024</div>
+
             </div>
 
-            <div class="text-center">&copy; Copyright Mike Flora Nursery & Primary School 2024</div>
 
-        </div>
-
-
-        </div>
+    </div>
 
 
 
@@ -181,6 +226,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+        // JavaScript to hide the loading spinner when the content is fully loaded
+        window.addEventListener('load', function() {
+            // Hide the loading overlay
+            document.getElementById('loading-overlay').style.display = 'none';
+            // Show the main content
+            document.querySelector('.content').style.display = 'block';
+        });
     </script>
 
 </body>
