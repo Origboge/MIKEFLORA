@@ -260,12 +260,18 @@
         AOS.init();
     </script>
     <script>
-        // JavaScript to hide the loading spinner when the content is fully loaded
+        const MIN_DISPLAY_TIME = 3000; // 3000ms or 3 seconds
+        const startTime = new Date().getTime();
+
         window.addEventListener('load', function() {
+            const endTime = new Date().getTime();
+            const elapsedTime = endTime - startTime;
+            const remainingTime = Math.max(MIN_DISPLAY_TIME - elapsedTime, 0);
+
             setTimeout(function() {
-                document.getElementById('loading-overlay').style.display = 'none';
-                document.querySelector('.content').style.display = 'block';
-            }, 500); // 500ms delay
+                document.getElementById('loading-overlay').classList.add('d-none');
+                document.querySelector('.content').classList.remove('d-none');
+            }, remainingTime);
         });
     </script>
 
