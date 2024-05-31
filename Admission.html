@@ -60,38 +60,58 @@
 
 
     <!-- END OF MAIN CONTENT -->
-    <footer class="Panel-footer">
+    <!-- START OF FOOTER -->
+    <footer class="footer">
         <div class="container">
-            <div class="row">
-                <section id="hours" class="col-sm-4">
-                    <span>School Hours:</span><br> Monday-Friday : 8am - 2pm<br> Weekends Closed
-                    <hr class="visible-xs">
+            <div class=footer-content>
 
-                </section>
-                <section id="address" class="col-sm-4">
-                    <span>Address:</span><br> 652F+6JR, Oke Aro Rd,<br> Akure 340283, Ondo State
-                    <p>School buses are available to our students</p>
-                    <hr class="visible-xs">
-                </section>
-                <section id="Testimonials" class="col-sm-4">
-                    <p> "It's a very good school and has quality education"</p>
-                    <p>"My sister is an alumni of this school, they impact the life of every child"</p>
-                    <p>"Mike Flora has produced students who are now leaders in various fields,i recommend!"</p>
 
-                </section>
+                <h2 class="footer-heading">
+                    <a href="home.html" class="logo"> <img class="logo" src="/MIKEFLORA/images/logo.jpg" width="50" height="50">MIKEFLORA SCHOOLS</a>
+                </h2>
+
+                <p class="menu">
+                    <a href="home.html">Home</a>
+                    <a href="#">Gallery</a>
+                    <a href="About Us.html">About</a>
+                    <a href="#">Blog</a>
+                    <a href="tel:+2348065007500">Contact</a>
+                </p>
+                <ul class="ftco-footer-social p-0">
+                    <!-- <li><i class="fa-brands fa-square-whatsapp"></i></li>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li> -->
+                    <li class="fa-brands"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Whatsapp"><span class=" fa-whatsapp"></span></a></li>
+                    <li class="fa-brands"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><span class="fa-facebook"></span></a></li>
+                    <li class="fa-brands"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><span class="fa-instagram"></span></a></li>
+                </ul>
+                <ul class="footer-address">
+                    <li><span class="address">Address:</span><br> 652F+6JR, Oke Aro Rd, Akure 340283, Ondo State </li>
+                    <li><span class="phone">Telephone:</span><br>(+234) 0806-500-7500</li><br>
+                    <li><span class="hours">School Hours:</span><br> Monday-Friday : 8am - 2pm<br> Weekends: Closed</li>
+
+
+                </ul><br>
+
+
+                <div class="row mt-5">
+                    <div class="col-md-12 text-center">
+                        <p class="copyright">
+                            Copyright © Mike Flora Nursery & Primary School
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                        </p>
+                        <p class="rights">All rights reserved | Website design by Lord Bamz</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="text-center">&copy; Copyright Mike Flora Nursery & Primary School 2024</div>
 
         </div>
-
-
         </div>
-
-
-
-
     </footer>
+    <!-- END OF FOOTER -->
 
 
     <!-- jquery plugin -->
@@ -104,7 +124,7 @@
         AOS.init();
     </script>
     <script>
-        const MIN_DISPLAY_TIME = 3000; // 3000ms or 3 seconds
+        const MIN_DISPLAY_TIME = 2000; // 2000ms or 2 seconds
         const startTime = new Date().getTime();
 
         window.addEventListener('load', function() {
