@@ -1,9 +1,10 @@
-                body {
+                html body {
                     font-size: 16px;
                     color: black;
-                    background-color: whitesmoke;
+                    background-color: rgba(5, 5, 5, 0.11);
                     font-family: sans-serif;
                 }
+                /* Image spinner animation */
                 
                 .loading-overlay {
                     position: fixed;
@@ -37,6 +38,7 @@
                     animation: spin 2s linear infinite;
                     /* Animation duration and type */
                 }
+                /* END OF Image spinner animation */
                 /* START OF HEADER */
                 
                 .MIKE {
@@ -46,12 +48,6 @@
                 
                 .FLORA {
                     color: rgb(112, 75, 48, 0.9);
-                    font-weight: 600;
-                }
-                
-                .About-message {
-                    text-align: justify;
-                    word-spacing: 2px;
                     font-weight: 600;
                 }
                 
@@ -72,7 +68,8 @@
                 }
                 
                 .navbar {
-                    background-color: white;
+                    background-color: rgba(5, 5, 5, 0.11);
+                    ;
                     padding: 10px;
                     box-sizing: content-box;
                     border-radius: 0.5rem;
@@ -93,6 +90,19 @@
                 .nav-item:hover {
                     background: rgb(198, 226, 220);
                 }
+                /* End of Header */
+                /* WELCOM MESSAGE */
+                
+                .About-message {
+                    text-align: justify;
+                    word-spacing: 2px;
+                    font-weight: 600;
+                    background-color: #a3de83;
+                    padding: 20px;
+                    /* border-radius: 1rem; */
+                    /* margin-left: -5%; */
+                    margin-bottom: 0px;
+                }
                 
                 .welcome {
                     text-align: center;
@@ -112,14 +122,14 @@
                     font-family: serif;
                     font-weight: 600;
                 }
-                /* End of Header */
+                /* END OF WELCOME MESSAGE */
                 /* start of Slideshow container */
                 
                 .mySlides {
                     display: none;
                 }
                 
-                .img {
+                .mySlides img {
                     vertical-align: middle;
                 }
                 
@@ -249,7 +259,7 @@
                     cursor: pointer;
                 }
                 /* END OF OUR GALLERY */
-                /* about us section */
+                /* about us AND WHY US section */
                 
                 .fa-graduation-cap,
                 .fa-award,
@@ -302,19 +312,21 @@
                 .vision,
                 .focus,
                 .mission {
-                    text-align: center;
-                    height: fit-content;
+                    text-align: justify;
+                    /* height: fit-content;
                     width: fit-content;
                     margin-bottom: 15px;
                     margin-top: 15px;
+                    margin-left: -5px; */
                     position: relative;
-                    padding-top: 15px;
+                    padding: 5px;
+                    /* padding-top: 15px;
                     padding-left: 15px;
                     padding-right: 15px;
-                    padding-bottom: 15px;
+                    padding-bottom: 15px; */
                     /* border: 1px solid rgb(112, 75, 48, 0.9); */
                     overflow: hidden;
-                    background-color: rgb(198, 226, 220);
+                    background-color: #a3de83;
                     border-radius: 2rem;
                     overflow: auto;
                     font-family: sans-serif;
@@ -324,6 +336,8 @@
                     background: transparent;
                     background-size: cover; */
                 }
+                /* end of about us */
+                /* ACCORDION SECTION */
                 
                 .special {
                     text-align: center;
@@ -336,6 +350,7 @@
                 .accordion {
                     margin-top: 5px;
                     margin-bottom: 5px;
+                    margin-left: -10px;
                 }
                 
                 .accordion-body {
@@ -344,14 +359,19 @@
                 
                 .accordion-button {
                     font-weight: 600;
+                    border-radius: 2rem;
+                }
+                
+                .accordion-header {
+                    background-color: #a3de83;
                 }
                 
                 #collapseOne,
                 #collapseTwo {
-                    background-color: rgb(198, 226, 220);
+                    background-color: #a3de83;
                     font-weight: 600;
                 }
-                /* end of about us */
+                /* END OF ACCORDION SECTION */
                 /* START OF ACADEMIC & MAP TILES */
                 
                 #Subject-and-classes,
@@ -440,48 +460,6 @@
                 }
                 /* END OF ACADEMIC & MAP TILES */
                 /* START OF FOOTER */
-                /*                 
-                .Panel-footer {
-                    margin-top: 30px;
-                    padding-top: 35px;
-                    padding-bottom: 30px;
-                    background-color: rgb(112, 75, 48, 0.9);
-                    border-top: 0;
-                }
-                
-                .Panel-footer div.row {
-                    margin-bottom: 50px;
-                }
-                
-                #hours,
-                #address {
-                    line-height: 2;
-                    color: whitesmoke;
-                }
-                
-                #hours>span,
-                #address>span {
-                    font-size: 1.3em;
-                    color: black;
-                }
-                
-                #address p {
-                    color: rgb(117, 38, 38);
-                    font-size: .8em;
-                    line-height: 1.8;
-                }
-                
-                #Testimonials {
-                    font-style: italic;
-                }
-                
-                #Testimonials p:nth-child(2) {
-                    margin-top: 25px;
-                }
-                
-                div.text-center {
-                    color: black;
-                } */
                 
                 footer {
                     padding: 1em 0;
