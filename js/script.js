@@ -19,13 +19,30 @@ function showSlides() {
     setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
 // JAVA SCRIPT FOR  GALLERY
-function myFunction(imgs) {
-    var expandImg = document.getElementById("expandedImg");
-    var imgText = document.getElementById("imgtext");
-    expandImg.src = imgs.src;
-    imgText.innerHTML = imgs.alt;
-    expandImg.parentElement.style.display = "block";
+function openTab(evt, tabName) {
+    // Get all elements with class="tab-content" and hide them
+    var tabcontent = document.getElementsByClassName("tab-content");
+    for (var i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tab-button" and remove the class "active"
+    var tablinks = document.getElementsByClassName("tab-button");
+    for (var i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
 }
+
+// Show the first tab by default
+document.addEventListener("DOMContentLoaded", function() {
+    // Show the "Events" tab by default
+    document.getElementsByClassName("tab-button")[0].click();
+});
+
 
 // AOS
 
