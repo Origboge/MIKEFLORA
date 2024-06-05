@@ -180,6 +180,8 @@
                         padding: 14px 16px;
                         transition: 0.3s;
                         font-size: 17px;
+                        font-weight: 600;
+                        color: rgb(51, 27, 11);
                     }
                     
                     .tab-button:hover {
@@ -251,7 +253,9 @@
                         margin-right: 5px;
                     }
                     
-                    .fa-phone {
+                    .fa-school,
+                    .fa-phone,
+                    .fa-calendar-days {
                         color: rgb(151, 105, 74);
                     }
                     
