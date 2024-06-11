@@ -644,9 +644,21 @@
                     /* DESKTOP SCREEN */
                     
                     @media (min-width: 576px) {
+                        .slider-container {
+                            width: 100%;
+                            overflow: hidden;
+                            position: relative;
+                        }
+                        .slide img {
+                            height: 400px;
+                        }
+                        .sectionhome1,
                         .sectionhome,
                         .sectionabout {
-                            width: 50%;
+                            width: 100%;
+                        }
+                        .home-container {
+                            display: flex;
                         }
                         .container-fluid,
                         .container1 {
