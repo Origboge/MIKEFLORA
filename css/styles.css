@@ -201,9 +201,27 @@ body {
 
 /* =================== WELCOME / INTRO =================== */
 
+.section-calendar {
+    margin-top: 20px;
+}
+
+.section-staff {
+    margin-top: -50px;
+}
+
+.section-admission {
+    margin-top: -50px;
+}
+
+.section {
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+
 .section-intro {
     position: relative;
     padding: clamp(2rem, 4vw, 4rem) 0 2rem;
+    margin-top: -100px;
 }
 
 .section-intro .intro-card {
